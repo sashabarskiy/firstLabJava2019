@@ -1,0 +1,8 @@
+mvn \
+deploy:deploy-file \
+-Durl=file:./lib \
+-Dfile=library-1.0-SNAPSHOT.jar \
+-DgroupId=univer \
+-DartifactId=library \
+-Dpackaging=jar \
+-Dversion=1.0-SNAPSHOT
